@@ -29,7 +29,7 @@ function AppRouter() {
         (
     <HashRouter>
       <Routes>
-        <Route exact path="/" element={<SectionC />}/>
+        <Route path="/" element={<SectionC />}/>
         <Route path="/sharkteam" element={<SectionIncruises />}/>
         <Route path="/cumbre" element={<SectionC />}/>
       </Routes>
