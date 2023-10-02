@@ -11,11 +11,11 @@ const TestimonioC = () => {
         <div className='backc-testimonio'>
             <div className='cardc-testimonio'>
                 <img className="imagec-testimonio" src={Testimonio1} />
-                <p className='pc-testimonio'>“He podido pasar de 1 <br/>cliente al mes, a cerrar 3 en 48 hs”</p>
+                <p className='pc-testimonio'>“Mi primera venta <br/>luego de 2 meses sin recalificar”</p>
             </div>
             <div className='cardc-testimonio'>
                 <img className="imagec-testimonio" src={Testimonio2} />
-                <p className='pc-testimonio'>“Mi primera venta <br/>luego de 2 meses sin recalificar”</p>
+                <p className='pc-testimonio'>“He podido pasar de 1 <br/>cliente al mes, a cerrar 3 en 48 hs”</p>
             </div>
             <div className='cardc-testimonio'>
                 <img className="imagec-testimonio" src={Testimonio3} />
