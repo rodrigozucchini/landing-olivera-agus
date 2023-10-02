@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import BounceLoader from "react-spinners/BounceLoader";
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import SectionIncruises from '../src/incruises/sections/Section';
 import './Router.css';
 import { SectionC } from '../src/cumbre/sections/SectionC';
