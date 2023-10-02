@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import BounceLoader from "react-spinners/BounceLoader";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import SectionIncruises from '../src/incruises/sections/Section';
 import './Router.css';
 import { SectionC } from '../src/cumbre/sections/SectionC';
@@ -27,13 +27,13 @@ function AppRouter() {
         )
       :
         (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route exact path="/" element={<SectionC />}/>
         <Route path="/sharkteam" element={<SectionIncruises />}/>
         <Route path="/cumbre" element={<SectionC />}/>
       </Routes>
-    </Router>
+    </HashRouter>
               )
             }
           </div>
