@@ -1,0 +1,164 @@
+.videoc-player-container-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+
+  
+  .video-container-c {
+    width: 900px;
+    height: auto; /* Ajusta la altura según tus necesidades */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .video-player-video-c {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .button-play-yes-c {
+    position: absolute; /* Agregamos posicionamiento absoluto */
+    bottom: 5%; /* Ajusta la posición vertical del botón según tus necesidades */
+    left: 50%; /* Ajusta la posición horizontal del botón según tus necesidades */
+    transform: translate(-50%, -50%); /* Centramos el botón */
+    z-index: 1;
+    width: 100px; /* Ajusta el ancho según tus necesidades */
+    height: 40px; /* Ajusta el alto según tus necesidades */
+    background-color: #ff0000; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón si lo deseas */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    border-radius: 5px; /* Agrega bordes redondeados al botón */
+    font-weight: bold;
+    border-radius: 10% red;
+  }
+  
+  .button-play-no-c {
+    position: absolute; /* Agregamos posicionamiento absoluto */
+    bottom: 5%; /* Ajusta la posición vertical del botón según tus necesidades */
+    left: 50%; /* Ajusta la posición horizontal del botón según tus necesidades */
+    transform: translate(-50%, -50%); /* Centramos el botón */
+    z-index: 1;
+    width: 100px; /* Ajusta el ancho según tus necesidades */
+    height: 40px; /* Ajusta el alto según tus necesidades */
+    background-color: transparent; /* Color de fondo del botón */
+    color: #000000; /* Color del texto del botón */
+    border: 1px solid red; /* Elimina el borde del botón si lo deseas */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    border-radius: 5px; /* Agrega bordes redondeados al botón */
+    font-weight: bold;
+    border-radius: 10% red;
+  }
+
+  @media only screen and (max-width: 1600px) {
+    .video-container-c {
+      display: relative;
+      width: 100%;
+      height: auto; /* Ajusta la altura según tus necesidades */
+      position: relative;
+    }
+  }
+
+  @media only screen and (max-width: 980px) {
+    .button-play-yes-c {
+      position: absolute; /* Agregamos posicionamiento absoluto */
+      bottom: 15%; /* Ajusta la posición vertical del botón según tus necesidades */
+      left: 50%; /* Ajusta la posición horizontal del botón según tus necesidades */
+      transform: translate(-50%, -50%); /* Centramos el botón */
+      z-index: 1;
+      width: 100px; /* Ajusta el ancho según tus necesidades */
+      height: 40px; /* Ajusta el alto según tus necesidades */
+      background-color: #ff0000; /* Color de fondo del botón */
+      color: #fff; /* Color del texto del botón */
+      border: none; /* Elimina el borde del botón si lo deseas */
+      cursor: pointer; /* Cambia el cursor al pasar por encima */
+      font-size: 16px; /* Tamaño de fuente del botón */
+      border-radius: 5px; /* Agrega bordes redondeados al botón */
+      font-weight: bold;
+      border-radius: 10% red;
+    }
+    
+    .button-play-no-c {
+      position: absolute; /* Agregamos posicionamiento absoluto */
+      bottom: 15%; /* Ajusta la posición vertical del botón según tus necesidades */
+      left: 50%; /* Ajusta la posición horizontal del botón según tus necesidades */
+      transform: translate(-50%, -50%); /* Centramos el botón */
+      z-index: 1;
+      width: 100px; /* Ajusta el ancho según tus necesidades */
+      height: 40px; /* Ajusta el alto según tus necesidades */
+      background-color: transparent; /* Color de fondo del botón */
+      color: #000000; /* Color del texto del botón */
+      border: 1px solid red; /* Elimina el borde del botón si lo deseas */
+      cursor: pointer; /* Cambia el cursor al pasar por encima */
+      font-size: 16px; /* Tamaño de fuente del botón */
+      border-radius: 5px; /* Agrega bordes redondeados al botón */
+      font-weight: bold;
+      border-radius: 10% red;
+    }
+
+  }
+
+  
+  @media only screen and (max-width: 800px) {
+    .videoc-player-container-c {
+      max-width: 95%;
+      height: 40vh;
+      margin-bottom: 55px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .button-play-yes-c {
+      position: absolute; /* Agregamos posicionamiento absoluto */
+      bottom: 25%; /* Ajusta la posición vertical del botón según tus necesidades */
+      left: 50%; /* Ajusta la posición horizontal del botón según tus necesidades */
+      transform: translate(-50%, -50%); /* Centramos el botón */
+      z-index: 1;
+      width: 100px; /* Ajusta el ancho según tus necesidades */
+      height: 40px; /* Ajusta el alto según tus necesidades */
+      background-color: #ff0000; /* Color de fondo del botón */
+      color: #fff; /* Color del texto del botón */
+      border: none; /* Elimina el borde del botón si lo deseas */
+      cursor: pointer; /* Cambia el cursor al pasar por encima */
+      font-size: 16px; /* Tamaño de fuente del botón */
+      border-radius: 5px; /* Agrega bordes redondeados al botón */
+      font-weight: bold;
+      border-radius: 10% red;
+    }
+    
+    .button-play-no-c {
+      position: absolute; /* Agregamos posicionamiento absoluto */
+      bottom: 25%; /* Ajusta la posición vertical del botón según tus necesidades */
+      left: 50%; /* Ajusta la posición horizontal del botón según tus necesidades */
+      transform: translate(-50%, -50%); /* Centramos el botón */
+      z-index: 1;
+      width: 100px; /* Ajusta el ancho según tus necesidades */
+      height: 40px; /* Ajusta el alto según tus necesidades */
+      background-color: transparent; /* Color de fondo del botón */
+      color: #000000; /* Color del texto del botón */
+      border: 1px solid red; /* Elimina el borde del botón si lo deseas */
+      cursor: pointer; /* Cambia el cursor al pasar por encima */
+      font-size: 16px; /* Tamaño de fuente del botón */
+      border-radius: 5px; /* Agrega bordes redondeados al botón */
+      font-weight: bold;
+      border-radius: 10% red;
+    }
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    .videoc-player-container-c {
+      max-width: 100%;
+      height: 40vh;
+      margin-bottom: 0px;
+    }
+  }
