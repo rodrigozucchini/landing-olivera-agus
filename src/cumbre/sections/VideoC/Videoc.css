@@ -10,8 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 900px;
-    height: auto; 
+    width: 100%;
+    height: 100%;
   }
   
   .button-play-yes-c {
@@ -49,6 +49,7 @@
     font-weight: bold;
     border-radius: 10% red;
   }
+
 
 @media only screen and (max-width: 1600px) {
     .video-container-c {
