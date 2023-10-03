@@ -124,23 +124,7 @@
         font-size: 18px;
 
     }
-    .background-mountain {
-    
-        /* Establece el tamaño de la imagen de fondo al 100% de la anchura del contenedor */
-        background-size:cover;
-        
-        /* Fija la imagen de fondo en la posición superior */
-        background-position: top center;
-        
-        /* Fija la imagen de fondo en altura (largo) */
-        background-attachment: fixed;
-        /* No repite */
-        background-repeat: no-repeat;
-        /* Otras propiedades para el contenedor, como altura mínima */
-        min-height: 50vh;
-        margin: 0;
-        padding-bottom: 0px;
-      }
+
   }
 
   @media only screen and (max-width: 400px) {
@@ -157,22 +141,6 @@
         font-size: 18px;
 
     }
-    .background-mountain {
-    
-        /* Establece el tamaño de la imagen de fondo al 100% de la anchura del contenedor */
-        background-size:cover;
-        
-        /* Fija la imagen de fondo en la posición superior */
-        background-position: top center;
-        
-        /* Fija la imagen de fondo en altura (largo) */
-        background-attachment: fixed;
-        /* No repite */
-        background-repeat: no-repeat;
-        /* Otras propiedades para el contenedor, como altura mínima */
-        min-height: 50vh;
-        margin: 0;
-        padding-bottom: 0px;
-      }
+
   }
   

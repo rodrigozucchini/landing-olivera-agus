@@ -10,8 +10,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 900px;
-  height: auto; /* Ajusta la altura según tus necesidades */
+    width: 100%;
+    height: 100%; /* Ajusta la altura según tus necesidades */
 }
 
 .button-play-yes {
@@ -148,11 +148,11 @@
   .video-container {
     display: relative;
     width: 100%;
-    height: 40vh; /* Ajusta la altura según tus necesidades */
+    height: auto; /* Ajusta la altura según tus necesidades */
     position: relative;
-    margin: 0;
     padding: 0;
   }
+
   .button-play-yes {
     position: absolute; /* Agregamos posicionamiento absoluto */
     bottom: 15%; /* Ajusta la posición vertical del botón según tus necesidades */
@@ -190,26 +190,26 @@
   }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 550px) {
   .video-container {
+    display: relative;
     width: 100%;
-    height: 209px;
-    align-items: center;
-    justify-content: center;
+    height: auto; /* Ajusta la altura según tus necesidades */
+    position: relative;
   }
   .button-play-yes {
     position: absolute; /* Agregamos posicionamiento absoluto */
-    bottom: 15%; /* Ajusta la posición vertical del botón según tus necesidades */
+    bottom: 27%; /* Ajusta la posición vertical del botón según tus necesidades */
     left: 50%; /* Ajusta la posición horizontal del botón según tus necesidades */
     transform: translate(-50%, -50%); /* Centramos el botón */
     z-index: 1;
-    width: 90px; /* Ajusta el ancho según tus necesidades */
-    height: 35px; /* Ajusta el alto según tus necesidades */
+    width: 85px; /* Ajusta el ancho según tus necesidades */
+    height: 30px; /* Ajusta el alto según tus necesidades */
     background-color: #ff0000; /* Color de fondo del botón */
     color: #fff; /* Color del texto del botón */
     border: none; /* Elimina el borde del botón si lo deseas */
     cursor: pointer; /* Cambia el cursor al pasar por encima */
-    font-size: 14px; /* Tamaño de fuente del botón */
+    font-size: 12px; /* Tamaño de fuente del botón */
     border-radius: 5px; /* Agrega bordes redondeados al botón */
     font-weight: bold;
     border-radius: 10% red;
@@ -217,19 +217,20 @@
   
   .button-play-no {
     position: absolute; /* Agregamos posicionamiento absoluto */
-    bottom: 15%; /* Ajusta la posición vertical del botón según tus necesidades */
+    bottom: 27%; /* Ajusta la posición vertical del botón según tus necesidades */
     left: 50%; /* Ajusta la posición horizontal del botón según tus necesidades */
     transform: translate(-50%, -50%); /* Centramos el botón */
     z-index: 1;
-    width: 90px; /* Ajusta el ancho según tus necesidades */
-    height: 35px; /* Ajusta el alto según tus necesidades */
+    width: 85px; /* Ajusta el ancho según tus necesidades */
+    height: 30px; /* Ajusta el alto según tus necesidades */
     background-color: transparent; /* Color de fondo del botón */
     color: #000000; /* Color del texto del botón */
     border: 1px solid red; /* Elimina el borde del botón si lo deseas */
     cursor: pointer; /* Cambia el cursor al pasar por encima */
-    font-size: 14px; /* Tamaño de fuente del botón */
+    font-size: 12px; /* Tamaño de fuente del botón */
     border-radius: 5px; /* Agrega bordes redondeados al botón */
     font-weight: bold;
     border-radius: 10% red;
   }
 }
+
