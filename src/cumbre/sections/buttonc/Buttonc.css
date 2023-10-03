@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
 }
 
 .buttonc-call {
@@ -11,12 +12,15 @@
     color: #FFFFFF;
     background-color: #c19656;
     border-radius: 5px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     text-align: center;
-    padding: 10px;
-    width: 35%;
-    height: auto;
+    padding: 0;
+    margin: 0;
+    width: 40%;
+    height: 50px;
     text-transform: uppercase;
     font-size: 30px;
     cursor: pointer;
@@ -51,7 +55,6 @@
         justify-content: center;
         width: 100%;
         margin-top: 0px;
-        margin-bottom: 20px;
     }
     
     .buttonc-call {

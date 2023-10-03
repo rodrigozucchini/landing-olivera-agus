@@ -17,7 +17,6 @@ const VideoC = () => {
       <ReactPlayer
       width="1000px"
       height="500px"
-      position="relative"
           playing={isPlaying}
           className='video-player-video-c'
           controls={false} // Deshabilita todos los controles predeterminados

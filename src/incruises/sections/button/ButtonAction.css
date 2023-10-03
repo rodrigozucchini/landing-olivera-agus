@@ -3,8 +3,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 .a-estilo {
     text-decoration: none; /* Quita la subrayado del enlace */
@@ -24,7 +22,7 @@
     display: inline-block;
     text-decoration: none;
     text-align: center;
-    padding: 10px;
+
     width: 35%;
     height: auto;
     text-transform: uppercase;

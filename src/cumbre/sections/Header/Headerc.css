@@ -3,19 +3,12 @@
     background-image: url('./../../../assets/montania3.jpg');
 
     /* Establece el tamaño de la imagen de fondo al 100% de la anchura del contenedor */
-    background-size: 100% auto;
+    background-size: cover;
     
     /* Fija la imagen de fondo en la posición superior */
-    background-position: top center;
-    
-    /* Fija la imagen de fondo en altura (largo) */
-    background-attachment: fixed;
-    /* No repite */
-    background-repeat: no-repeat;
-    /* Otras propiedades para el contenedor, como altura mínima */
-    min-height: 100vh;
+    background-position: center;
     margin: 0;
-    padding: 0 0 50px 0;
+    padding: 0;
   }
 
 .headerc-title {
@@ -24,8 +17,7 @@
     font-family: 'Open sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 35px;
     font-weight: normal;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
     padding: 0;
 }
 
@@ -127,7 +119,7 @@
         /* No repite */
         background-repeat: no-repeat;
         /* Otras propiedades para el contenedor, como altura mínima */
-        min-height: 80vh;
+        min-height: 50vh;
         margin: 0;
         padding-bottom: 0px;
       }
@@ -160,7 +152,7 @@
         /* No repite */
         background-repeat: no-repeat;
         /* Otras propiedades para el contenedor, como altura mínima */
-        min-height: 85vh;
+        min-height: 50vh;
         margin: 0;
         padding-bottom: 0px;
       }
@@ -193,7 +185,7 @@
         /* No repite */
         background-repeat: no-repeat;
         /* Otras propiedades para el contenedor, como altura mínima */
-        min-height: 100vh;
+        min-height: 50vh;
         margin: 0;
         padding-bottom: 0px;
       }
