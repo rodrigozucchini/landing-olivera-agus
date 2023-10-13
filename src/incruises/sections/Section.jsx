@@ -6,6 +6,7 @@ import Testimonios from './testimonios/Testimonios';
 import TestimoniosVideo from './testimonios/TestimonioVideo';
 import ButtonAction from './button/ButtonAction';
 import MessageFinal from './messagefinal/MessageFinal';
+import Instagram from '../../rrss/Instagram';
 
 const SectionIncruises = () => {
 
@@ -19,6 +20,7 @@ const SectionIncruises = () => {
        <TestimoniosVideo />
        <ButtonAction />
        <MessageFinal />
+       <Instagram />
     </>
   )
 }
